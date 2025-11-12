@@ -1,9 +1,3 @@
-//
-//  ContentView.swift
-//  S25W11List
-//
-//  Created by 박준형 on 11/12/25.
-//
 
 import SwiftUI
 
