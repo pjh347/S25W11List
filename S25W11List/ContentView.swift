@@ -3,13 +3,56 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        MyList()
+    }
+}
+
+struct MyList: View {
+    var body: some View {
+        List {
+            Text("노래1")
+            Text("노래2")
+            Text("노래3")
+            Text("노래1")
+            Text("노래2")
+            Text("노래3")
+            Text("노래1")
+            Text("노래2")
+            Text("노래3")
+            Text("노래1")
+            Text("노래2")
+            Text("노래3")
+            Text("노래1")
+            Text("노래2")
+            Text("노래3")
+            Text("노래1")
+            Text("노래2")
+            Text("노래3")
+            Text("노래1")
+            Text("노래2")
+            Text("노래3")
+            Text("노래1")
+            Text("노래2")
+            Text("노래3")
+            Text("노래1")
+            Text("노래2")
+            Text("노래3")
+            Text("노래1")
+            Text("노래2")
+            Text("노래3")
+            Text("노래1")
+            Text("노래2")
+            Text("노래3")
+            Text("노래1")
+            Text("노래2")
+            Text("노래3")
+            Text("노래1")
+            Text("노래2")
+            Text("노래3")
+            Text("노래1")
+            Text("노래2")
+            Text("노래3")
         }
-        .padding()
     }
 }
 
